@@ -1,1 +1,1 @@
-This is configuration for editor Neovim
+This is configuration for Neovim editor
