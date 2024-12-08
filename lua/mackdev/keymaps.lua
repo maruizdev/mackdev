@@ -36,14 +36,14 @@ vim.keymap.set("n", "<C-l>", [[<Cmd>wincmd l<CR>]], { desc = "Move right" })
 
 --vim.keymap.set("n","<c-s>")
 -- Tabs
---[[ vim.keymap.set('n',"<Tab>", ":tabnext<CR>", {noremap =true})
+vim.keymap.set('n',"<Tab>", ":tabnext<CR>", {noremap =true})
 vim.keymap.set('n',"<S-Tab>", ":tabprevious<CR>", {noremap =true})
-vim.keymap.set('n',"<S-t>", ":tabnew<CR>", {noremap =true, silent = true}) ]]
+vim.keymap.set('n',"<S-t>", ":tabnew<CR>", {noremap =true, silent = true})
 
 -- bufferline 
-vim.keymap.set('n',"<Tab>", ":BufferLineCycleNext<CR>", {noremap =true, silent = true})
+--[[ vim.keymap.set('n',"<Tab>", ":BufferLineCycleNext<CR>", {noremap =true, silent = true})
 vim.keymap.set('n',"<S-Tab>", ":BufferLineCyclePrev<CR>", {noremap =true, silent = true})
-vim.keymap.set('n',"<F4>", ":Bdelete<CR>", {noremap =true, silent = true})
+vim.keymap.set('n',"<F4>", ":Bdelete<CR>", {noremap =true, silent = true}) ]]
 
 --save file
 vim.keymap.set('n', '<C-s>', ':w<CR>', opts)

@@ -1,4 +1,4 @@
-return {
+--[[ return {
 	"folke/noice.nvim",
 	event = "VeryLazy",
 	opts = {
@@ -12,4 +12,5 @@ return {
 		--   If not available, we use `mini` as the fallback
 		"rcarriga/nvim-notify",
 	}
-}
+} ]]
+return {}
