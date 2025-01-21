@@ -92,7 +92,7 @@ function M.setup()
           fallback()
         end
       end, { "i", "s" }),
-      ["<C-p>"] = cmp.mapping.select_prev_item(),
+      ["<s-tab>"] = cmp.mapping.select_prev_item(),
       ["<CR>"] = cmp.mapping.confirm {
         behavior = cmp.ConfirmBehavior.Insert,
         select = true,
